@@ -3,6 +3,7 @@ import javax.swing.*;
 public class Frame1 extends JFrame {
     private JButton button1;
     private JPanel panel;
+    private JButton узнатьПрограммуТренировокButton;
 
     public Frame1(){
         setTitle("1");
