@@ -11,7 +11,7 @@ public class Frame1 extends JFrame {
         setVisible(true);
 
         button1.addActionListener((event)->{
-            new Frame2();
+            new Frame2(getX(), getY(), getWidth(), getHeight());
             dispose();
         });
 
